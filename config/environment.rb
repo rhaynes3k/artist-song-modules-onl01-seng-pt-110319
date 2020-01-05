@@ -1,5 +1,5 @@
 require 'pry'
-
+Bundler.require
 require_all 'lib'
 require_relative '../lib/concerns/memorable'
 require_relative '../lib/concerns/findable'
